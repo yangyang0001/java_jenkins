@@ -18,4 +18,9 @@ public class HelloController {
     public String sayHelloPerson(String username) {
         return "Hello " + username;
     }
+
+    @RequestMapping("/sayHelloYang")
+    public String sayHelloYang() {
+        return "Hello Yang";
+    }
 }
